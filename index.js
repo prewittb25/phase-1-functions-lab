@@ -1,9 +1,8 @@
 
 
 function distanceFromHqInBlocks(myBlock){ 
-    //I want to return the distance from HQ in blocks
-    // where located on 42nd street
- if(myBlock>42){
+    
+  if(myBlock>42){
     return myBlock - 42
  } else{
 return 42 - myBlock
